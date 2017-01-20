@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084B38F91E32304A0088E21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B38F81E32304A0088E21A /* AppDelegate.swift */; };
+		084B38FB1E32304A0088E21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084B38FA1E32304A0088E21A /* Assets.xcassets */; };
+		084B38FE1E32304A0088E21A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084B38FC1E32304A0088E21A /* LaunchScreen.storyboard */; };
+		084B39091E32304A0088E21A /* ChronometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B39081E32304A0088E21A /* ChronometerTests.swift */; };
+		084B39141E32304A0088E21A /* ChronometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B39131E32304A0088E21A /* ChronometerUITests.swift */; };
+		084B39221E3230580088E21A /* Chronometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B39211E3230580088E21A /* Chronometer.swift */; };
+		084B39241E3230770088E21A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B39231E3230770088E21A /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		084B39051E32304A0088E21A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 084B38ED1E32304A0088E21A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 084B38F41E32304A0088E21A;
+			remoteInfo = Chronometer;
+		};
+		084B39101E32304A0088E21A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 084B38ED1E32304A0088E21A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 084B38F41E32304A0088E21A;
+			remoteInfo = Chronometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084B38F51E32304A0088E21A /* Chronometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chronometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		084B38F81E32304A0088E21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		084B38FA1E32304A0088E21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		084B38FD1E32304A0088E21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		084B38FF1E32304A0088E21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		084B39041E32304A0088E21A /* ChronometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChronometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		084B39081E32304A0088E21A /* ChronometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronometerTests.swift; sourceTree = "<group>"; };
+		084B390A1E32304A0088E21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		084B390F1E32304A0088E21A /* ChronometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChronometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		084B39131E32304A0088E21A /* ChronometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronometerUITests.swift; sourceTree = "<group>"; };
+		084B39151E32304A0088E21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		084B39211E3230580088E21A /* Chronometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chronometer.swift; sourceTree = "<group>"; };
+		084B39231E3230770088E21A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		084B38F21E32304A0088E21A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084B39011E32304A0088E21A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084B390C1E32304A0088E21A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		084B38EC1E32304A0088E21A = {
+			isa = PBXGroup;
+			children = (
+				084B38F71E32304A0088E21A /* Chronometer */,
+				084B39071E32304A0088E21A /* ChronometerTests */,
+				084B39121E32304A0088E21A /* ChronometerUITests */,
+				084B38F61E32304A0088E21A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		084B38F61E32304A0088E21A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				084B38F51E32304A0088E21A /* Chronometer.app */,
+				084B39041E32304A0088E21A /* ChronometerTests.xctest */,
+				084B390F1E32304A0088E21A /* ChronometerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		084B38F71E32304A0088E21A /* Chronometer */ = {
+			isa = PBXGroup;
+			children = (
+				084B38F81E32304A0088E21A /* AppDelegate.swift */,
+				084B38FA1E32304A0088E21A /* Assets.xcassets */,
+				084B38FC1E32304A0088E21A /* LaunchScreen.storyboard */,
+				084B38FF1E32304A0088E21A /* Info.plist */,
+				084B39211E3230580088E21A /* Chronometer.swift */,
+				084B39231E3230770088E21A /* MainViewController.swift */,
+			);
+			path = Chronometer;
+			sourceTree = "<group>";
+		};
+		084B39071E32304A0088E21A /* ChronometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				084B39081E32304A0088E21A /* ChronometerTests.swift */,
+				084B390A1E32304A0088E21A /* Info.plist */,
+			);
+			path = ChronometerTests;
+			sourceTree = "<group>";
+		};
+		084B39121E32304A0088E21A /* ChronometerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				084B39131E32304A0088E21A /* ChronometerUITests.swift */,
+				084B39151E32304A0088E21A /* Info.plist */,
+			);
+			path = ChronometerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		084B38F41E32304A0088E21A /* Chronometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 084B39181E32304A0088E21A /* Build configuration list for PBXNativeTarget "Chronometer" */;
+			buildPhases = (
+				084B38F11E32304A0088E21A /* Sources */,
+				084B38F21E32304A0088E21A /* Frameworks */,
+				084B38F31E32304A0088E21A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chronometer;
+			productName = Chronometer;
+			productReference = 084B38F51E32304A0088E21A /* Chronometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		084B39031E32304A0088E21A /* ChronometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 084B391B1E32304A0088E21A /* Build configuration list for PBXNativeTarget "ChronometerTests" */;
+			buildPhases = (
+				084B39001E32304A0088E21A /* Sources */,
+				084B39011E32304A0088E21A /* Frameworks */,
+				084B39021E32304A0088E21A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				084B39061E32304A0088E21A /* PBXTargetDependency */,
+			);
+			name = ChronometerTests;
+			productName = ChronometerTests;
+			productReference = 084B39041E32304A0088E21A /* ChronometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		084B390E1E32304A0088E21A /* ChronometerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 084B391E1E32304A0088E21A /* Build configuration list for PBXNativeTarget "ChronometerUITests" */;
+			buildPhases = (
+				084B390B1E32304A0088E21A /* Sources */,
+				084B390C1E32304A0088E21A /* Frameworks */,
+				084B390D1E32304A0088E21A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				084B39111E32304A0088E21A /* PBXTargetDependency */,
+			);
+			name = ChronometerUITests;
+			productName = ChronometerUITests;
+			productReference = 084B390F1E32304A0088E21A /* ChronometerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		084B38ED1E32304A0088E21A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Gazolla;
+				TargetAttributes = {
+					084B38F41E32304A0088E21A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MA5BADG5AW;
+						ProvisioningStyle = Automatic;
+					};
+					084B39031E32304A0088E21A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MA5BADG5AW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 084B38F41E32304A0088E21A;
+					};
+					084B390E1E32304A0088E21A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MA5BADG5AW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 084B38F41E32304A0088E21A;
+					};
+				};
+			};
+			buildConfigurationList = 084B38F01E32304A0088E21A /* Build configuration list for PBXProject "Chronometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 084B38EC1E32304A0088E21A;
+			productRefGroup = 084B38F61E32304A0088E21A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				084B38F41E32304A0088E21A /* Chronometer */,
+				084B39031E32304A0088E21A /* ChronometerTests */,
+				084B390E1E32304A0088E21A /* ChronometerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		084B38F31E32304A0088E21A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084B38FB1E32304A0088E21A /* Assets.xcassets in Resources */,
+				084B38FE1E32304A0088E21A /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084B39021E32304A0088E21A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084B390D1E32304A0088E21A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		084B38F11E32304A0088E21A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084B39241E3230770088E21A /* MainViewController.swift in Sources */,
+				084B39221E3230580088E21A /* Chronometer.swift in Sources */,
+				084B38F91E32304A0088E21A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084B39001E32304A0088E21A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084B39091E32304A0088E21A /* ChronometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084B390B1E32304A0088E21A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084B39141E32304A0088E21A /* ChronometerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		084B39061E32304A0088E21A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 084B38F41E32304A0088E21A /* Chronometer */;
+			targetProxy = 084B39051E32304A0088E21A /* PBXContainerItemProxy */;
+		};
+		084B39111E32304A0088E21A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 084B38F41E32304A0088E21A /* Chronometer */;
+			targetProxy = 084B39101E32304A0088E21A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		084B38FC1E32304A0088E21A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				084B38FD1E32304A0088E21A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		084B39161E32304A0088E21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		084B39171E32304A0088E21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		084B39191E32304A0088E21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MA5BADG5AW;
+				INFOPLIST_FILE = Chronometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gazapps.Chronometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		084B391A1E32304A0088E21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MA5BADG5AW;
+				INFOPLIST_FILE = Chronometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gazapps.Chronometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		084B391C1E32304A0088E21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MA5BADG5AW;
+				INFOPLIST_FILE = ChronometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gazapps.ChronometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chronometer.app/Chronometer";
+			};
+			name = Debug;
+		};
+		084B391D1E32304A0088E21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MA5BADG5AW;
+				INFOPLIST_FILE = ChronometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gazapps.ChronometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chronometer.app/Chronometer";
+			};
+			name = Release;
+		};
+		084B391F1E32304A0088E21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MA5BADG5AW;
+				INFOPLIST_FILE = ChronometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gazapps.ChronometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Chronometer;
+			};
+			name = Debug;
+		};
+		084B39201E32304A0088E21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MA5BADG5AW;
+				INFOPLIST_FILE = ChronometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gazapps.ChronometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Chronometer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		084B38F01E32304A0088E21A /* Build configuration list for PBXProject "Chronometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084B39161E32304A0088E21A /* Debug */,
+				084B39171E32304A0088E21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		084B39181E32304A0088E21A /* Build configuration list for PBXNativeTarget "Chronometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084B39191E32304A0088E21A /* Debug */,
+				084B391A1E32304A0088E21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		084B391B1E32304A0088E21A /* Build configuration list for PBXNativeTarget "ChronometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084B391C1E32304A0088E21A /* Debug */,
+				084B391D1E32304A0088E21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		084B391E1E32304A0088E21A /* Build configuration list for PBXNativeTarget "ChronometerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084B391F1E32304A0088E21A /* Debug */,
+				084B39201E32304A0088E21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 084B38ED1E32304A0088E21A /* Project object */;
+}
